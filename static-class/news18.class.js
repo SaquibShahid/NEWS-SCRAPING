@@ -6,14 +6,41 @@ const language=["odia","hindi","bengali","marathi","gujarati","kannada","tamil",
 return language.find((item)=>baseUrl.includes(item))
 }
 
-exports.getCategory=(lengauge)=>{
+exports.getNews18Category=(lengauge,url)=>{
     if(lengauge=="english"){
         const categoryArray=['movies','cricket','india','politics','world','viral','business','opinion','education-career','elections']
-        
-        const baseurlLen=23;
-        const category=categoryArray.find((item)=>{
-            return item===url.substring(baseurlLen,baseurlLen+item.length)
+        const urlArray=url.split("/")
+        return urlArray.find((url)=>{
+            return categoryArray.find((cate)=>{
+                return url==cate
+            })
         })
-        return category;
+    }else if(lengauge=="bengali"){
+        const categoryArray=['north-bengal','south-bengal','entertainment','job','sports','crime','off-beat','education-career']
+        const urlArray=url.split("/")
+        return urlArray.find((url)=>{
+            return categoryArray.find((cate)=>{
+                return url==cate
+            })
+        })
+    }else{
+        return undefined;
+    }
+}
+exports.getNew18Class=(lengauge)=>{
+    if(lengauge=="english"){
+        return{
+            titleClass:"article_heading",
+            descriptionClass:"story_para_",
+            imageClass:"article_bimg",
+        }
+    }else if(lengauge==="bengali"){
+        return{
+            titleClass:"nwarthd",
+            descriptionClass:"nwartcntdtl",
+            imageClass:"nwartbximg",
+        }
+    }else{
+        return null;
     }
 }

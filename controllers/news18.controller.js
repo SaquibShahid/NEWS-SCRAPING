@@ -4,7 +4,6 @@ const cheerio=require("cheerio");
 
 exports.createNews18News=async(req,res)=>{
     try{
-
         const {url}=req.body;
         if(!url){
             return res.json({
@@ -19,45 +18,49 @@ exports.createNews18News=async(req,res)=>{
             lengauge="english"
         }
 
-       
-
-        if(category===undefined){
+       let category=getNews18StaticData.getNews18Category(lengauge,url)
+       if(category===undefined){
             return res.json({
                 status:"error",
                 message:"catgory not found",
                 responseCode:500,
                 data:null,
                })
-    
         }
 
         const response=await request(url);
         const $=cheerio.load(response)
 
-        const title=$(`h1.article_heading`).text()
+        const classInfo=getNews18StaticData.getNew18Class(lengauge)
+        const title=$(`h1.${classInfo.titleClass}`).text()
 
         let description=""
-        let index=0;
-        while(1){
-            const des=$(`p.story_para_${index}`).text()
-            if(des.length===0){
-                break;
+        if(lengauge=="bengali"){
+            description=$(`div.${classInfo.descriptionClass} p`).text()
+        }else{
+            console.log(classInfo.descriptionClass)
+            let index=0;
+            while(1){
+                const des=$(`p.${classInfo.descriptionClass}${index}`).text()
+                if(des.length===0){
+                    break;
+                }
+                description+=des;
+                index++;
             }
-            description+=des;
-            index++;
         }
-
-        const image=$(`div.article_bimg img`).attr("src")
-
+        const image=$(`div.${classInfo.imageClass} img`).attr("src")
         return res.json({
             status:"success",
             message:"news create successfully",
             responseCode:200,
             data:{
-            category,
-            title,
-            description,
-            image,
+                title,
+                category,
+                lengauge,
+                description,
+                image, 
+                sourceUrl:url,  
         },
            })
 
@@ -70,5 +73,4 @@ exports.createNews18News=async(req,res)=>{
                 data:null,
                })
         }
-
 }
