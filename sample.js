@@ -31,11 +31,12 @@ async function summarizeText(inputText) {
 }
 
 // Example usage
-const textToSummarize = "Your input text goes here. This can be a long document or article that you want to summarize.";
-summarizeText(textToSummarize)
-    .then(summary => {
-        console.log("Summary:", summary);
-    })
-    .catch(err => {
-        console.error("Error:", err);
-    });
+// const textToSummarize = "Your input text goes here. This can be a long document or article that you want to summarize.";
+// summarizeText(textToSummarize)
+//     .then(summary => {
+//         console.log("Summary:", summary);
+//     })
+//     .catch(err => {
+//         console.error("Error:", err);
+//     });
+
