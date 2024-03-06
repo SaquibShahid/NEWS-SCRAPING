@@ -1,0 +1,38 @@
+{
+    "_id": {
+      "$oid": "65e6ca0b8a6af0ed98b80fdb"
+    },
+    "newsPlatform": "News18",
+    "category": [
+      {
+        "name": "Entertainment",
+        "url": "https://www.news18.com/entertainment/",
+        "listClasses": {
+          "main": [
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      }
+    ]
+  }
