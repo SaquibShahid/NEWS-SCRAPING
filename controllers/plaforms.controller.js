@@ -6,14 +6,14 @@ const rawNewsModel = require("../models/rawnews.model");
 
 const createPlatformsNews = async () => {
   try {
-    const platforms = await platformModel.find().select({ __v: 0 });
+    const platforms = await platformModel.find({}).select({ __v: 0 });
     for ( let platformsIndex = 0; platformsIndex < platforms.length; platformsIndex++) {
         let singlePlatforms = platforms[platformsIndex];
       let category = singlePlatforms.category;
-
+      // let testS=category.length-1,testE=category.length;
       for (let categoryIndex = 0;categoryIndex < category.length; categoryIndex++) {
-
         const singleCategory = singlePlatforms.category[categoryIndex];
+      
         const response = await request({
             uri: singleCategory.url,
             headers: {
@@ -21,19 +21,18 @@ const createPlatformsNews = async () => {
             }
         });
         let $ = cheerio.load(response);
-     
         const maniCalsss = singleCategory.listClasses.main;
         let container = null;
-
+        
         for (let i = 0; i < maniCalsss.length; i++) {
           container = $(
             singlePlatforms.category[categoryIndex].listClasses.main[i]
-          );
-          if (container.text().length > 0) {
-            break;
+            );
+            if (container.text().length > 0) {
+              break;
+            }
           }
-        }
-
+          
         container.each(async function (index, element) {
        
           const mainTitle = singleCategory.listClasses.title;
@@ -44,7 +43,7 @@ const createPlatformsNews = async () => {
               break;
             }
           }
-      
+         
           title.each(async (Tindex, Telement) => {
            
             let detailsUrl = null;
@@ -60,7 +59,7 @@ const createPlatformsNews = async () => {
                 break;
               }
             }
-       
+            // console.log({detailsUrl:detailsUrl});
             if (detailsUrl !== undefined) {
               {
                 const detailsResponse = await request({
@@ -125,13 +124,13 @@ const createPlatformsNews = async () => {
                       image: detailsImage,
                       description: detailsDescription,
                       tags: detailsTag,
-                      category: singleCategory.name,
+                      categoryName: singleCategory.categoryName,
                       channelName: singlePlatforms.newsPlatform,
                     });
                     await rawnews.save();
                     console.log({ dataInsert: detailsTitle,
                     channelName:singlePlatforms.newsPlatform,
-                category:singleCategory.name });
+                category:singleCategory.categoryName });
                   }
                 } else {
                   console.log({
@@ -148,6 +147,7 @@ const createPlatformsNews = async () => {
     }
   } catch (error) {
     console.log("error----->", error.message);
+
   }
 };
 createPlatformsNews();

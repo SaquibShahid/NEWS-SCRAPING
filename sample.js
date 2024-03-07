@@ -15,7 +15,7 @@
     "category": [
       {
         "name": "Election",
-        "url": "https://www.indiatvnews.com/elections",
+        "url": "https://www.republicworld.com/elections/",
         "listClasses": {
           "main": [
             "div.lsBox",

@@ -1,38 +1,35 @@
 {
-    "_id": {
-      "$oid": "65e6ca0b8a6af0ed98b80fdb"
-    },
-    "newsPlatform": "News18",
-    "category": [
-      {
-        "name": "Entertainment",
-        "url": "https://www.news18.com/entertainment/",
-        "listClasses": {
-          "main": [
-            "div.blog_list"
-          ],
-          "title": [
-            "div.blog_title h4"
-          ],
-          "url": [
-            "div.blog_list_row a"
-          ]
-        },
-        "detailsClasses": {
-          "title": [
-            "h1.article_heading"
-          ],
-          "image": [
-            "div.article_bimg img"
-          ],
-          "description": [
-            "div.jsx-926f17af57ac97dc p"
-          ],
-          "tags": [
-            "div.tags_box ol li a",
-            "div.tags_box ol li"
-          ]
-        }
+  "_id": {
+    "$oid": "65e866d48650af517b0847b3"
+  },
+  "newsPlatform": "TimesOfIndia",
+  "category": [
+    {
+      "name": "World",
+      "url": "https://timesofindia.indiatimes.com/world",
+      "listClasses": {
+        "main": [
+          "div.wRxdF"
+        ],
+        "title": [
+          "a"
+        ],
+        "url": [
+          "a"
+        ]
+      },
+      "detailsClasses": {
+        "title": [
+          "h1.HNMDR span"
+        ],
+        "image": [
+          "div.wJnIp img"
+        ],
+        "description": [
+          "div._s30J:first"
+        ],
+        "tags": []
       }
-    ]
-  }
+    }
+  ]
+}

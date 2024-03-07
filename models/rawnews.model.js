@@ -12,11 +12,15 @@ const rawNewsSchema=new mongoose.Schema({
         required:true,
         index:true
     },
-    category:{
+    categoryName:{
         type:String,
         required:true,
     },
     sourceUrl:{
+        type:String,
+        required:true,
+    },
+    image:{
         type:String,
         required:true,
     },
