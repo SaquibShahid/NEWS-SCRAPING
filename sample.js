@@ -9,6 +9,7 @@
 //            })
 //     }
 
+
 //     // const url="https://www.news18.com/education-career/on-this-day-in-2008-virat-kohli-led-india-to-u-19-world-cup-glory-8798010.html"
 //     // console.log(url[22])
 //     // let cp="education-career"
@@ -46,3 +47,38 @@ try{
 }
 }
 fun()
+
+
+
+
+    // "category": [
+    //   {
+    //     "name": "Election",
+    //     "url": "https://www.republicworld.com/elections/",
+    //     "listClasses": {
+    //       "main": [
+    //         "div.lsBox",
+    //         "div.lhsBox"
+    //       ],
+    //       "title": [
+    //         "h3.titel a"
+    //       ],
+    //       "url": [
+    //         "h3.titel a"
+    //       ]
+    //     },
+    //     "detailsClasses": {
+    //       "title": [
+    //         "h1.arttitle"
+    //       ],
+    //       "image": [
+    //         "figure.artbigimg img"
+    //       ],
+    //       "description": [
+    //         "div.content p"
+    //       ],
+    //       "tags": []
+    //     }
+    //   }
+    // ]
+  

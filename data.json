@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "$oid": "65e866d48650af517b0847b3"
+  },
+  "newsPlatform": "TimesOfIndia",
+  "category": [
+    {
+      "name": "World",
+      "url": "https://timesofindia.indiatimes.com/world",
+      "listClasses": {
+        "main": [
+          "div.wRxdF"
+        ],
+        "title": [
+          "a"
+        ],
+        "url": [
+          "a"
+        ]
+      },
+      "detailsClasses": {
+        "title": [
+          "h1.HNMDR span"
+        ],
+        "image": [
+          "div.wJnIp img"
+        ],
+        "description": [
+          "div._s30J:first"
+        ],
+        "tags": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1639 @@
+[{
+    "_id": {
+      "$oid": "65e6ca0b8a6af0ed98b80fdb"
+    },
+    "newsPlatform": "News18",
+    "category": [
+      {
+        "categoryName": "Movies",
+        "url": "https://www.news18.com/movies/",
+        "listClasses": {
+          "main": [
+            "div.blo_list",
+            "div.blog_list"
+          ],
+          "title": [
+            "ul.CN-latestStory-widget li p",
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p",
+            "p.story_para_",
+            "p.story_para",
+            "p.story_para_"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "Cricket",
+        "url": "https://www.news18.com/cricket/",
+        "listClasses": {
+          "main": [
+            "div.CN-sec-l",
+            "div.blog_list"
+          ],
+          "title": [
+            "ul.CN-latestStory-widget li p",
+            "div.blog_title h4"
+          ],
+          "url": [
+            "ul.CN-latestStory-widget li a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading",
+            "h1.live_blog_title"
+          ],
+          "image": [
+            "div.article_bimg img",
+            "div.first_story_left img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "India",
+        "url": "https://www.news18.com/india/",
+        "listClasses": {
+          "main": [
+            "div.blo_list",
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_titl h4",
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "Entertainment",
+        "url": "https://www.news18.com/entertainment/",
+        "listClasses": {
+          "main": [
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "Politics",
+        "url": "https://www.news18.com/politics/",
+        "listClasses": {
+          "main": [
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "World",
+        "url": "https://www.news18.com/world/",
+        "listClasses": {
+          "main": [
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "Viral",
+        "url": "https://www.news18.com/viral/",
+        "listClasses": {
+          "main": [
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "Business",
+        "url": "https://www.news18.com/business/",
+        "listClasses": {
+          "main": [
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "Opinion",
+        "url": "https://www.news18.com/opinion/",
+        "listClasses": {
+          "main": [
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      },
+      {
+        "categoryName": "Education",
+        "url": "https://www.news18.com/education-career/",
+        "listClasses": {
+          "main": [
+            "div.blog_list"
+          ],
+          "title": [
+            "div.blog_title h4"
+          ],
+          "url": [
+            "div.blog_list_row a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article_heading"
+          ],
+          "image": [
+            "div.article_bimg img"
+          ],
+          "description": [
+            "div.jsx-926f17af57ac97dc p"
+          ],
+          "tags": [
+            "div.tags_box ol li a",
+            "div.tags_box ol li"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65e81e828650af517b084781"
+    },
+    "newsPlatform": "TimesNow",
+    "category": [
+      {
+        "categoryName": "Business",
+        "url": "https://www.timesnownews.com/business-economy",
+        "listClasses": {
+          "main": [
+            "div.vFjP"
+          ],
+          "title": [
+            "div._3ECx"
+          ],
+          "url": [
+            "div._2LXp a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "World",
+        "url": "https://www.timesnownews.com/world",
+        "listClasses": {
+          "main": [
+            "div.vFjP"
+          ],
+          "title": [
+            "div._3ECx"
+          ],
+          "url": [
+            "div._2LXp a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "India",
+        "url": "https://www.timesnownews.com/india",
+        "listClasses": {
+          "main": [
+            "div.vFjP"
+          ],
+          "title": [
+            "div._3ECx"
+          ],
+          "url": [
+            "div._2LXp a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Lifestyle",
+        "url": "https://www.timesnownews.com/lifestyle",
+        "listClasses": {
+          "main": [
+            "div.vFjP"
+          ],
+          "title": [
+            "div._3ECx"
+          ],
+          "url": [
+            "div._2LXp a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Entertainment",
+        "url": "https://www.timesnownews.com/entertainment-news",
+        "listClasses": {
+          "main": [
+            "div.vFjP"
+          ],
+          "title": [
+            "div._3ECx"
+          ],
+          "url": [
+            "div._2LXp a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Health",
+        "url": "https://www.timesnownews.com/health",
+        "listClasses": {
+          "main": [
+            "div.vFjP"
+          ],
+          "title": [
+            "div._3ECx"
+          ],
+          "url": [
+            "div._2LXp a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Cricket",
+        "url": "https://www.timesnownews.com/sports/cricket",
+        "listClasses": {
+          "main": [
+            "div.xgYs"
+          ],
+          "title": [
+            "div._16rp"
+          ],
+          "url": [
+            "div._1W5s a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Football",
+        "url": "https://www.timesnownews.com/sports/football",
+        "listClasses": {
+          "main": [
+            "div.xgYs"
+          ],
+          "title": [
+            "div._16rp"
+          ],
+          "url": [
+            "div._1W5s a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Education",
+        "url": "https://www.timesnownews.com/education",
+        "listClasses": {
+          "main": [
+            "div.xgYs"
+          ],
+          "title": [
+            "div._16rp"
+          ],
+          "url": [
+            "div._1W5s a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Vehicle",
+        "url": "https://www.timesnownews.com/auto",
+        "listClasses": {
+          "main": [
+            "div.vFjP"
+          ],
+          "title": [
+            "div._3ECx"
+          ],
+          "url": [
+            "div._2LXp a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1._1Fcx"
+          ],
+          "image": [
+            "div._3lDd img"
+          ],
+          "description": [
+            "div._1884"
+          ],
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65e83d668650af517b084797"
+    },
+    "newsPlatform": "RepublicWorld",
+    "category": [
+      {
+        "categoryName": "Education",
+        "url": "https://www.republicworld.com/education",
+        "listClasses": {
+          "main": [
+            "div.CatTopStoryListing"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "India",
+        "url": "https://www.republicworld.com/india/",
+        "listClasses": {
+          "main": [
+            "div.mainArticle"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Elections",
+        "url": "https://www.republicworld.com/elections/",
+        "listClasses": {
+          "main": [
+            "div.mainArticle"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Defence",
+        "url": "https://www.republicworld.com/defence/",
+        "listClasses": {
+          "main": [
+            "div.mainArticle"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "World",
+        "url": "https://www.republicworld.com/world-news/",
+        "listClasses": {
+          "main": [
+            "div.mainArticle"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Economy",
+        "url": "https://www.republicworld.com/economy/",
+        "listClasses": {
+          "main": [
+            "div.catNewsList"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Business",
+        "url": "https://www.republicworld.com/business/",
+        "listClasses": {
+          "main": [
+            "div.mainArticle"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Cricket",
+        "url": "https://www.republicworld.com/sports/cricket/",
+        "listClasses": {
+          "main": [
+            "div.mainArticle"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Football",
+        "url": "https://www.republicworld.com/sports/football/",
+        "listClasses": {
+          "main": [
+            "div.mainArticle"
+          ],
+          "title": [
+            "p.lightCardTitle a"
+          ],
+          "url": [
+            "p.lightCardTitle a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "div.storyTitle h1"
+          ],
+          "image": [
+            "div.storyImg img"
+          ],
+          "description": [
+            "div.description p"
+          ],
+          "tags": []
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65e84e5e8650af517b0847a4"
+    },
+    "category": [
+      {
+        "categoryName": "Election",
+        "url": "https://www.indiatvnews.com/elections",
+        "listClasses": {
+          "main": [
+            "div.lsBox",
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "India",
+        "url": "https://www.indiatvnews.com/india",
+        "listClasses": {
+          "main": [
+            "div.lsBox",
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "World",
+        "url": "https://www.indiatvnews.com/world",
+        "listClasses": {
+          "main": [
+            "div.lsBox",
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Entertainment",
+        "url": "https://www.indiatvnews.com/entertainment",
+        "listClasses": {
+          "main": [
+            "div.lsBox",
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Cricket",
+        "url": "https://www.indiatvnews.com/sports/cricket",
+        "listClasses": {
+          "main": [
+            "div.bg_news_list"
+          ],
+          "title": [
+            "p.s_title"
+          ],
+          "url": [
+            "a.eventTracking"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Football",
+        "url": "https://www.indiatvnews.com/sports/football",
+        "listClasses": {
+          "main": [
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Technology",
+        "url": "https://www.indiatvnews.com/technology",
+        "listClasses": {
+          "main": [
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Explainers",
+        "url": "https://www.indiatvnews.com/explainers",
+        "listClasses": {
+          "main": [
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Astrology",
+        "url": "https://www.indiatvnews.com/astrology",
+        "listClasses": {
+          "main": [
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Health",
+        "url": "https://www.indiatvnews.com/health",
+        "listClasses": {
+          "main": [
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "Lifestyle",
+        "url": "https://www.indiatvnews.com/lifestyle",
+        "listClasses": {
+          "main": [
+            "div.lhsBox"
+          ],
+          "title": [
+            "h3.titel a"
+          ],
+          "url": [
+            "h3.titel a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.arttitle"
+          ],
+          "image": [
+            "figure.artbigimg img"
+          ],
+          "description": [
+            "div.content p"
+          ],
+          "tags": []
+        }
+      }
+    ],
+    "newsPlatform": "IndiaTv"
+  },
+  {
+    "_id": {
+      "$oid": "65e855638650af517b0847a8"
+    },
+    "newsPlatform": "AbpLive",
+    "category": [
+      {
+        "categoryName": "State",
+        "url": "https://news.abplive.com/states",
+        "listClasses": {
+          "main": [
+            "section.story-wrapper"
+          ],
+          "title": [
+            "div.story-title"
+          ],
+          "url": [
+            "a.sub-news-story"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article-title"
+          ],
+          "image": [
+            "div.lead-image-for-article img"
+          ],
+          "description": [
+            "div.article-data p"
+          ],
+          "tags": [
+            "span.tag"
+          ]
+        }
+      },
+      {
+        "categoryName": "Business",
+        "url": "https://news.abplive.com/business",
+        "listClasses": {
+          "main": [
+            "section.story-wrapper"
+          ],
+          "title": [
+            "div.story-title"
+          ],
+          "url": [
+            "a.sub-news-story"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.abp-article-title"
+          ],
+          "image": [
+            "div.lead-image img"
+          ],
+          "description": [
+            "div.abp-story-detail p"
+          ],
+          "tags": [
+            "div.pg-story-tag a"
+          ]
+        }
+      },
+      {
+        "categoryName": "Entertainment",
+        "url": "https://news.abplive.com/entertainment",
+        "listClasses": {
+          "main": [
+            "section.categoty-top-story"
+          ],
+          "title": [
+            "div.story-title"
+          ],
+          "url": [
+            "a.sub-news-story"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.abp-article-title"
+          ],
+          "image": [
+            "div.lead-image img"
+          ],
+          "description": [
+            "div.abp-story-detail p"
+          ],
+          "tags": [
+            "div.pg-story-tag a"
+          ]
+        }
+      },
+      {
+        "categoryName": "Technology",
+        "url": "https://news.abplive.com/technology",
+        "listClasses": {
+          "main": [
+            "section.categoty-top-story"
+          ],
+          "title": [
+            "div.story-title"
+          ],
+          "url": [
+            "section.story-wrapper:first a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.abp-article-title"
+          ],
+          "image": [
+            "div.lead-image img"
+          ],
+          "description": [
+            "div.abp-story-detail p"
+          ],
+          "tags": [
+            "div.pg-story-tag a"
+          ]
+        }
+      },
+      {
+        "categoryName": "Lifestyle",
+        "url": "https://news.abplive.com/lifestyle",
+        "listClasses": {
+          "main": [
+            "section.story-wrapper"
+          ],
+          "title": [
+            "div.story-title"
+          ],
+          "url": [
+            "a.sub-news-story"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.abp-article-title"
+          ],
+          "image": [
+            "div.lead-image img"
+          ],
+          "description": [
+            "div.abp-story-detail p"
+          ],
+          "tags": [
+            "div.pg-story-tag a"
+          ]
+        }
+      },
+      {
+        "categoryName": "FectCheck",
+        "url": "https://news.abplive.com/fact-check",
+        "listClasses": {
+          "main": [
+            "section.story-wrapper"
+          ],
+          "title": [
+            "div.story-title"
+          ],
+          "url": [
+            "a.sub-news-story"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.abp-article-title"
+          ],
+          "image": [
+            "div.lead-image img"
+          ],
+          "description": [
+            "div.abp-story-detail p"
+          ],
+          "tags": [
+            "div.pg-story-tag a"
+          ]
+        }
+      },
+      {
+        "categoryName": "Cricket",
+        "url": "https://news.abplive.com/sports/cricket",
+        "listClasses": {
+          "main": [
+            "div.ck-TopNews"
+          ],
+          "title": [
+            "a"
+          ],
+          "url": [
+            "a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article-title"
+          ],
+          "image": [
+            "div.lead-image-for-article img"
+          ],
+          "description": [
+            "div.article-data p"
+          ],
+          "tags": [
+            "div.pg-story-tag a"
+          ]
+        }
+      },
+      {
+        "categoryName": "Football",
+        "url": "https://news.abplive.com/sports/football",
+        "listClasses": {
+          "main": [
+            "div.featured-section"
+          ],
+          "title": [
+            "a"
+          ],
+          "url": [
+            "a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.article-title"
+          ],
+          "image": [
+            "div.lead-image-for-article img"
+          ],
+          "description": [
+            "div.article-data p"
+          ],
+          "tags": [
+            "span.title"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65e85e148650af517b0847ac"
+    },
+    "newsPlatform": "Cnbctv18",
+    "category": [
+      {
+        "categoryName": "Economy",
+        "url": "https://www.cnbctv18.com/economy/",
+        "listClasses": {
+          "main": [
+            "div.top-news-flex"
+          ],
+          "title": [
+            "h3.top-news-ttl"
+          ],
+          "url": [
+            "a.jsx-4433d92fbb397a0b"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.narticle-title"
+          ],
+          "image": [
+            "div.narticle-photo img"
+          ],
+          "description": [
+            "div.nart-para"
+          ],
+          "tags": [
+            "span.tag"
+          ]
+        }
+      },
+      {
+        "categoryName": "Market",
+        "url": "https://www.cnbctv18.com/market/",
+        "listClasses": {
+          "main": [
+            "div.mkt-widget-grid"
+          ],
+          "title": [
+            "a"
+          ],
+          "url": [
+            "a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.narticle-title"
+          ],
+          "image": [
+            "div.narticle-photo img"
+          ],
+          "description": [
+            "div.nart-para"
+          ],
+          "tags": [
+            "div.all-tags a"
+          ]
+        }
+      },
+      {
+        "categoryName": "Finance",
+        "url": "https://www.cnbctv18.com/personal-finance/",
+        "listClasses": {
+          "main": [
+            "div.top-news-flex"
+          ],
+          "title": [
+            "h3.top-news-ttl"
+          ],
+          "url": [
+            "a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.narticle-title"
+          ],
+          "image": [
+            "div.narticle-photo img"
+          ],
+          "description": [
+            "div.nart-para"
+          ],
+          "tags": [
+            "div.all-tags a"
+          ]
+        }
+      },
+      {
+        "categoryName": "Business",
+        "url": "https://www.cnbctv18.com/business/",
+        "listClasses": {
+          "main": [
+            "div.top-news-flex"
+          ],
+          "title": [
+            "h3.top-news-ttl"
+          ],
+          "url": [
+            "a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.narticle-title"
+          ],
+          "image": [
+            "div.narticle-photo img"
+          ],
+          "description": [
+            "div.nart-para"
+          ],
+          "tags": [
+            "div.all-tags a"
+          ]
+        }
+      },
+      {
+        "categoryName": "Features",
+        "url": "https://www.cnbctv18.com/tags/features.htm",
+        "listClasses": {
+          "main": [
+            "div#all_Section"
+          ],
+          "title": [
+            "div.showwrap h2"
+          ],
+          "url": [
+            "div.showwrap a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.narticle-title"
+          ],
+          "image": [
+            "div.narticle-photo img"
+          ],
+          "description": [
+            "div.nart-para"
+          ],
+          "tags": [
+            "div.all-tags a"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65e866d48650af517b0847b3"
+    },
+    "newsPlatform": "TimesOfIndia",
+    "category": [
+      {
+        "categoryName": "City",
+        "url": "https://timesofindia.indiatimes.com/city",
+        "listClasses": {
+          "main": [
+            "div.grid_wrapper"
+          ],
+          "title": [
+            "a.Hn2z7 figcaption"
+          ],
+          "url": [
+            "a.Hn2z7"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.HNMDR span"
+          ],
+          "image": [
+            "div.wJnIp img"
+          ],
+          "description": [
+            "div._s30J:first"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "India",
+        "url": "https://timesofindia.indiatimes.com/india",
+        "listClasses": {
+          "main": [
+            "div.lM9xY"
+          ],
+          "title": [
+            "a"
+          ],
+          "url": [
+            "a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.HNMDR span"
+          ],
+          "image": [
+            "div.wJnIp img"
+          ],
+          "description": [
+            "div._s30J:first"
+          ],
+          "tags": []
+        }
+      },
+      {
+        "categoryName": "World",
+        "url": "https://timesofindia.indiatimes.com/world",
+        "listClasses": {
+          "main": [
+            "div.wRxdF"
+          ],
+          "title": [
+            "a"
+          ],
+          "url": [
+            "a"
+          ]
+        },
+        "detailsClasses": {
+          "title": [
+            "h1.HNMDR span"
+          ],
+          "image": [
+            "div.wJnIp img"
+          ],
+          "description": [
+            "div._s30J:first"
+          ],
+          "tags": []
+        }
+      }
+    ]
+  }]
